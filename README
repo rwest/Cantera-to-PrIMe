@@ -1,0 +1,6 @@
+This will read in a Cantera cti file (default if not specified = 'chem.cti') 
+and produce a PrIMe formatted thermo polynomial XML file for each species therein
+
+We import a load of classes from ctml_writer which comes with Cantera 
+(but is included here in case you can't find it) then add some extra
+methods to some of the classes, so that we can do some extra stuff.
