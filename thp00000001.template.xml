@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <thermodynamicPolynomials type="nasa7" xmlns="http://purl.org/NET/prime/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" primeID="thp00000001" xsi:schemaLocation="http://purl.org/NET/prime/ http://warehouse.primekinetics.org/schema/thermodynamicPolynomials.xsd">
    <copyright>primekinetics.org 2006</copyright>
    <bibliographyLink preferredKey="West R.H., 2009." primeID="b99999999" />
@@ -14,26 +14,26 @@
          <bound kind="lower" property="temperature" units="K">${lowerT}</bound>
          <bound kind="upper" property="temperature" units="K">${middleT}</bound>
       </validRange>
-      <coefficient id="1" label="a1">3.1111</coefficient>
-      <coefficient id="2" label="a2">-0.0035938</coefficient>
-      <coefficient id="3" label="a3">8.1475e-006</coefficient>
-      <coefficient id="4" label="a4">-8.0881e-009</coefficient>
-      <coefficient id="5" label="a5">2.9313e-012</coefficient>
-      <coefficient id="6" label="a6">38828.339</coefficient>
-      <coefficient id="7" label="a7">2.8405</coefficient>
+      <coefficient id="1" label="a1">${a1}</coefficient>
+      <coefficient id="2" label="a2">${a2}</coefficient>
+      <coefficient id="3" label="a3">${a3}</coefficient>
+      <coefficient id="4" label="a4">${a4}</coefficient>
+      <coefficient id="5" label="a5">${a5}</coefficient>
+      <coefficient id="6" label="a6">${a6}</coefficient>
+      <coefficient id="7" label="a7">${a7}</coefficient>
    </polynomial>
    <polynomial>
       <validRange>
          <bound kind="lower" property="temperature" units="K">${middleT}</bound>
          <bound kind="upper" property="temperature" units="K">${upperT}</bound>
       </validRange>
-      <coefficient id="1" label="a1">2.5339</coefficient>
-      <coefficient id="2" label="a2">-4.6586e-005</coefficient>
-      <coefficient id="3" label="a3">2.828e-008</coefficient>
-      <coefficient id="4" label="a4">-8.5436e-012</coefficient>
-      <coefficient id="5" label="a5">1.0221e-015</coefficient>
-      <coefficient id="6" label="a6">38904.5662</coefficient>
-      <coefficient id="7" label="a7">5.3798</coefficient>
+      <coefficient id="1" label="a1">${b1}</coefficient>
+      <coefficient id="2" label="a2">${b2}</coefficient>
+      <coefficient id="3" label="a3">${b3}</coefficient>
+      <coefficient id="4" label="a4">${b4}</coefficient>
+      <coefficient id="5" label="a5">${b5}</coefficient>
+      <coefficient id="6" label="a6">${b6}</coefficient>
+      <coefficient id="7" label="a7">${b7}</coefficient>
    </polynomial>
    
 </thermodynamicPolynomials>
